@@ -1,0 +1,199 @@
+body {   
+    background: #FF1493;    
+}
+.nav_menu{
+   background: linear-gradient(#FF1493, #cbe5ff), #0459af;
+}
+.modal-header {
+    padding: 6px 10px;
+    background: #FF1493;
+    background: linear-gradient(#FF1493, #cbe5ff), #0459af;
+    color: #fff;
+}
+.alert-success {
+    color: #ffffff;
+    background-color: #FF1493;
+    border-color: #FF1493;
+}
+.left_col, .right_col {
+    background: #FF1493;
+}
+
+.nav_title {
+    background: #FF1493;   
+}
+
+.nav_title span{
+    color: #fdfdfd;   
+}
+
+.nav.side-menu>li>a, .nav.child_menu>li>a {
+    color: #fdfdfd;   
+}
+
+.nav.side-menu>li.active>a{
+    background: linear-gradient(#FF1493, #FF1493), #FF1493
+}
+
+.nav-md ul.nav.child_menu li.current-page {
+    background: #ff5fb5;
+}
+
+.nav-md ul.nav.child_menu li:before{
+    background: #ffffff;
+}
+
+
+.main_menu span.fa{
+    color: #ffffff;
+}
+
+.fa{
+    color: #ffffff;
+}
+
+.navbar-right .fa{
+    color:#FF1493 !important
+}
+
+.site_title{
+    color:#2A3F54 !important
+}
+
+.head-title i.fa {   
+    color: #FF1493;
+}
+
+#menu_toggle i, .nav-tabs i{
+    color: #FF1493;
+}
+
+.x_title {
+    border-bottom: 2px solid #FF1493;
+}
+
+.btn-success {
+    color: #fdfdfd;
+    background-color: #FF1493;
+    border-color: #FF1493;
+}
+
+.btn-success:hover {
+    background-color: #FF1493;
+    border-color: #FF1493;
+}
+
+.nav-sm ul.nav.child_menu{
+    background: #FF1493;
+}
+
+.head-title , .head-title small{   
+    color: #FF1493;
+}
+
+.nav.child_menu {
+    background: #d40674;
+}
+
+.fa-sign-out,
+.box-footer .fa,
+.fa-print,
+.btn-group .fa,
+.btn-file .fa,
+.mail-menu-box  .fa,
+.stats-count-inner  .fa,
+.mailbox-controls .fa,
+.compose-msg .fa,
+.theme-color .fa{
+    color: #FF1493;
+}
+
+
+
+
+/* front end stsrt========================================= */
+
+.header-top-area {
+    background: #ff53b0;
+    border-bottom: 1px solid #fd77bf;
+}
+.header-area {
+    background: #FF1493;
+    border-bottom: 1px solid #ff61b6;
+}
+
+.main-menu ul li ul.submenu{
+    background: #FF1493 none repeat scroll 0 0;
+}
+.main-menu ul li ul.submenu li {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.page-title,
+.about-area,
+.right-pane .news-content,
+.right-pane .single-notice{
+    border-bottom: 1px solid #FF1493  !important;
+    border: 0;    
+}
+
+.single-event-list,
+.profile-details,
+.gallery,
+.single-notice,
+.news-content img,
+.gallery-img img{
+    border: 1px solid #FF1493;
+}
+
+footer { 
+    background: #FF1493;   
+    border-top: 1px solid #ff61b6;
+}
+.footer-title{
+    color: #c7c7c7;
+}
+
+.footer-text,
+.footer-text span, 
+.footer-contact-info .text{
+    color: #f9f9f9 !important;
+}
+.q-links ul li a {
+    color: #f9f9f9;
+}
+
+
+.top-menu ul li,
+.header-top-area .fa,
+.mainmenu .fa, 
+.header-top a,
+.main-menu ul li a,
+.top-menu ul li a{
+    color: #fdfdfd;
+}
+
+.main-menu ul li a:hover{
+    color: #cac6c6;
+}
+
+.btn-link .fa,
+.news-date .fa,
+.detail-notice .fa,
+.single-notice .fa,
+.notice-single .fa,
+.profile-details .fa{
+    color: #FF1493  !important;
+}
+
+.social-links .fa, 
+.footer-contact-info .fa{
+    color: #c7c7c7 !important;
+}
+
+.footer-bottom {
+    background: #ff53b0;   
+}
+.admission-form{
+    border: 1px solid #FF1493;
+}

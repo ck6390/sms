@@ -1,0 +1,195 @@
+body {   
+    background: #20B2AA;    
+}
+.nav_menu{
+  background: linear-gradient(#20B2AA, #cbe5ff), #0459af;
+}
+.modal-header {
+    padding: 6px 10px;
+    background: #20B2AA;
+    background: linear-gradient(#20B2AA, #cbe5ff), #0459af;
+    color: #fff;
+}
+.alert-success {
+    color: #ffffff;
+    background-color: #20B2AA;
+    border-color: #20B2AA;
+}
+.left_col, .right_col {
+    background: #20B2AA;
+}
+
+.nav_title {
+    background: #20B2AA;
+}
+
+.nav_title span{
+    color: #fdfdfd;   
+}
+
+.nav.side-menu>li>a, .nav.child_menu>li>a {
+    color: #fdfdfd;   
+}
+
+.nav.side-menu>li.active>a{
+    background: linear-gradient(#44b5af, #39c1ba), #3ea29d
+}
+
+.nav-md ul.nav.child_menu li.current-page {
+    background: #60d0ca;
+}
+
+.nav-md ul.nav.child_menu li:before{
+    background: #ffffff;
+}
+
+
+.main_menu span.fa{
+    color: #ffffff;
+}
+
+.fa{
+    color: #ffffff;
+}
+
+.navbar-right .fa{
+    color:#20B2AA !important
+}
+
+.site_title{
+    color:#c5c5c5 !important
+}
+
+.head-title i.fa {   
+    color: #20B2AA;
+}
+
+#menu_toggle i, .nav-tabs i{
+    color: #20B2AA;
+}
+
+.x_title {
+    border-bottom: 2px solid #20B2AA;
+}
+
+.btn-success {
+    color: #fdfdfd;
+    background-color: #20B2AA;
+    border-color: #20B2AA;
+}
+
+.btn-success:hover {
+    background-color: #20B2AA;
+    border-color: #20B2AA;
+}
+
+.nav-sm ul.nav.child_menu{
+    background: #20B2AA;
+}
+
+.head-title , .head-title small{   
+    color: #20B2AA;
+}
+
+.nav.child_menu {
+    background: #22ded4;
+}
+
+.fa-sign-out,
+.box-footer .fa,
+.fa-print,
+.btn-group .fa,
+.btn-file .fa,
+.mail-menu-box  .fa,
+.stats-count-inner  .fa,
+.mailbox-controls .fa,
+.compose-msg .fa,
+.theme-color .fa{
+    color: #20B2AA;
+}
+
+/* front end stsrt========================================= */
+.header-top-area {
+        background: #2bdad0;
+    border-bottom: 1px solid #2bdad0;
+}
+.header-area {
+    background: #20B2AA;
+    border-bottom: 1px solid #20B2AA;
+}
+
+.main-menu ul li ul.submenu{
+    background: #20B2AA none repeat scroll 0 0;
+}
+.main-menu ul li ul.submenu li {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.page-title,
+.about-area,
+.right-pane .news-content,
+.right-pane .single-notice{
+    border-bottom: 1px solid #20b2aa  !important;
+    border: 0;    
+}
+
+.single-event-list,
+.profile-details,
+.gallery,
+.single-notice,
+.news-content img,
+.gallery-img img{
+    border: 1px solid #20b2aa;  
+}
+
+footer { 
+    background: #20B2AA;   
+    border-top: 1px solid #20B2AA;
+}
+.footer-title{
+    color: #87fff8;
+}
+
+.footer-text,
+.footer-text span, 
+.footer-contact-info .text{
+    color: #f9f9f9 !important;
+}
+.q-links ul li a {
+    color: #f9f9f9;
+}
+
+
+.top-menu ul li,
+.header-top-area .fa,
+.mainmenu .fa, 
+.header-top a,
+.main-menu ul li a,
+.top-menu ul li a{
+    color: #fdfdfd;
+}
+
+.main-menu ul li a:hover{
+    color: #cac6c6;
+}
+
+.btn-link .fa,
+.news-date .fa,
+.detail-notice .fa,
+.single-notice .fa,
+.notice-single .fa,
+.profile-details .fa{
+    color: #20b2aa !important;
+}
+
+.social-links .fa, 
+.footer-contact-info .fa{
+    color: #66fff6 !important;
+}
+
+.footer-bottom {
+    background: #2bdad0;   
+}
+.admission-form{
+    border: 1px solid #20b2aa;
+}

@@ -1,0 +1,24 @@
+26/03/2019
+CREATE TABLE IF NOT EXISTS `student_register` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `school_id` varchar(225) NOT NULL,
+  `class_id` int(11) NOT NULL,
+  `student_name` varchar(225) NOT NULL,
+  `student_phone` varchar(20) NOT NULL,
+  `student_email` varchar(225) NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `created_at` datetime NOT NULL,
+  `modified_at` datetime DEFAULT NULL,
+  `created_by` int(11) NOT NULL,
+  `modified_by` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id` (`id`)
+)
+ALTER TABLE `student_register` ADD `academic_year_id` INT(11) NOT NULL AFTER `school_id`;
+ALTER TABLE `student_register` ADD `invoice_id` INT(11) NOT NULL AFTER `student_email`;
+
+For Student Attendances: 02/04/2019
+ALTER TABLE `student_attendances` CHANGE `attendance_date` `attendance_data` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+
+ALTER TABLE `teacher_attendances` ADD `attendance_data` JSON NOT NULL AFTER `attendance_time`;
+ALTER TABLE `employee_attendances` ADD `attendance_data` TEXT NOT NULL AFTER `attendance_time`;
